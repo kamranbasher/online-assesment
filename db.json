@@ -1,0 +1,139 @@
+{
+  "sessions":[
+    {
+      "id": 1,
+      "userName": "Kamran Bashir",
+      "submission":[
+        {
+          "questionId":1,
+          "answer":"Option One",
+        },
+        {
+          "questionId":2,
+          "answer":[
+            "Option Four",
+            "Option One",
+          ],
+        },
+        {
+          "questionId":3,
+          "answer":[
+            "Option One",
+            "Option Two",
+            "Option Three",
+            "Option Four",
+          ],
+        },
+        {
+          "questionId":4,
+          "answer":"Option Four",
+        },
+        {
+          "questionId":5,
+          "answer":"Option Four",
+        },
+        {
+          "questionId":6,
+          "answer":"Option Four",
+        },
+      ],
+    },
+  ],
+  "questions":[
+    {
+      "id":1,
+      "type": "mcqs",
+      "data":{
+        "question":"This is a MCQs Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer":"Option One",
+      }
+    },
+    {
+      "id":2,
+      "type": "dragAndDrop",
+      "data":{
+        "question":"This is a Drag And Drop Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer": [
+          "Option Four",
+          "Option One",
+        ],
+      }
+    },
+    {
+      "id":3,
+      "type": "ranking",
+      "data":{
+        "question":"This is a Re-Ordering/Ranking Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer": [
+          "Option Four",
+          "Option Three",
+          "Option Two",
+          "Option One",
+        ],
+      }
+    },
+    {
+      "id":4,
+      "type": "image",
+      "data":{
+        "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
+        "question":"This is a Image Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer": "Option One",
+      }
+    },
+    {
+      "id":5,
+      "type": "video",
+      "data":{
+        "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "question":"This is a Video Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer": "Option One",
+      }
+    },
+    {
+      "id":6,
+      "type": "audio",
+      "data":{
+        "url":"https://github.com/SergLam/Audio-Sample-files/raw/master/sample.mp3",
+        "question":"This is an Audio Question?",
+        "options":[
+          "Option One",
+          "Option Two",
+          "Option Three",
+          "Option Four",
+        ],
+        "answer": "Option One",
+      }
+    },
+  ]
+}
