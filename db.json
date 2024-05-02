@@ -134,6 +134,75 @@
                 ],
                 "answer": "Option One"
             }
+        },
+        {
+            "id": 7,
+            "type": "matching",
+            "data": {
+                "question": "This is a Matching Question?",
+                "left": [
+                    {
+                        "id":1,
+                        "type":"text",
+                        "content":"Option 1"
+                    },
+                    {
+                        "id":2,
+                        "type":"text",
+                        "content":"Option 2"
+                    },
+                    {
+                        "id":3,
+                        "type":"image",
+                        "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg"
+                    },
+                    {
+                        "id":4,
+                        "type":"image",
+                        "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg"
+                    }
+                ],
+                "right": [
+                    {
+                        "id":1,
+                        "type":"text",
+                        "content":"Option 1"
+                    },
+                    {
+                        "id":2,
+                        "type":"text",
+                        "content":"Option 2"
+                    },
+                    {
+                        "id":3,
+                        "type":"text",
+                        "content":"Option 3"
+                    },
+                    {
+                        "id":4,
+                        "type":"text",
+                        "content":"Option 4"
+                    }
+                ],
+                "answer": [
+                    {
+                        "left":1,
+                        "right":2
+                    },
+                    {
+                        "left":2,
+                        "right":3
+                    },
+                    {
+                        "left":3,
+                        "right":4
+                    },
+                    {
+                        "left":4,
+                        "right":1
+                    }
+                ]
+            }
         }
     ]
 }
