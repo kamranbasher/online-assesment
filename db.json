@@ -35,6 +35,27 @@
                 {
                     "questionId": 6,
                     "answer": "Option Four"
+                },
+                {
+                    "questionId": 7,
+                    "answer": [
+                        {
+                            "left":1,
+                            "right":2
+                        },
+                        {
+                            "left":2,
+                            "right":3
+                        },
+                        {
+                            "left":3,
+                            "right":4
+                        },
+                        {
+                            "left":4,
+                            "right":1
+                        }
+                    ]
                 }
             ]
         }
